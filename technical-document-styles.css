@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 300px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #cccccc;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  font-size: 1.8em;
+  color: black;
+  text-align: center;
+  border-bottom: solid;
+}
+
+section article {
+  color: black;
+  margin: 18px;
+  font-size: 0.9em;
+}
+
+#navbar {
+  border-left: solid;
+  border-right: solid;
+  border-color: gray;
+  background-color: #dddddd;
+  position: fixed;
+  min-width: 300px;
+  width: 300px;
+  top: 0px;
+  left: 0px;
+  height: 100%; 
+}
+
+#navbar li {
+  width: 100%;
+  color: black;
+  border-top: 0.8px solid;
+  position: relative;
+}
+
+#navbar ul {
+  padding: 0;
+}
+
+#navbar a {
+  display: block;
+  padding: 5px 16px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navbar a:hover {
+  background-color: black;
+  color: white;
+}
+
+code {
+  display: block;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#main-doc {
+  padding: 20px;
+  position: absolute;
+  margin-left: 290px;
+}
+
+section li {
+  margin: 20px 0px 0px 20px;
+}
+
+@media only screen and (max-width: 850px) {
+  #navbar ul {
+    border: 1px solid;
+    height: 225px;
+  }
+}
